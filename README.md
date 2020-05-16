@@ -41,4 +41,14 @@ tsc --version
 
 3. Create src folder and run `tsc`
 
+4. Run `npm init` and in package.json add the following lines
+
+```json
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts ",
+    "build": "tsc -p ."
+  },
+```
+
 [TypeScript Docs](https://www.typescriptlang.org/)
