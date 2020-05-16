@@ -2,6 +2,19 @@
 
 Getting started with typescript and node js
 
+## Scripts
+
+```bash
+# Run development server on http://localhost:5000/
+npm run dev
+
+#
+npm start
+
+#
+npm build
+```
+
 ## Getting Started
 
 1. Make sure typescript is installed
