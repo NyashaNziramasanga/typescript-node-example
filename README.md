@@ -1,6 +1,6 @@
 # Typescript Node Example
 
-Getting started with typescript and node js
+Getting started with TypeScript and Node JS
 
 ## Scripts
 
@@ -8,11 +8,11 @@ Getting started with typescript and node js
 # Run development server on http://localhost:5000/
 npm run dev
 
-#
+# Run javascript in Dist folder
 npm start
 
-#
-npm build
+# Build dist folder will app.js
+npm run build
 ```
 
 ## Getting Started
@@ -64,4 +64,9 @@ tsc --version
   },
 ```
 
-[TypeScript Docs](https://www.typescriptlang.org/)
+## Resources
+
+- [TypeScript Docs](https://www.typescriptlang.org/)
+- [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/)
+- [TypeScript - The Basics (Video)](https://www.youtube.com/watch?v=ahCwqrYpIuM)
+- [TypeScript Setup with Node & Express (Video)](https://www.youtube.com/watch?v=zRo2tvQpus8&t=446s)
