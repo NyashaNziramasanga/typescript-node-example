@@ -4,7 +4,7 @@ Getting started with typescript and node js
 
 ## Getting Started
 
-make sure typescript is installed
+1. Make sure typescript is installed
 
 ```bash
 # install typescript compiler globally
@@ -24,7 +24,7 @@ tsc --init
 tsc --version
 ```
 
-After `tsc --init` you will want to uncomment and change the location of where the compiled javascript will go
+2. After `tsc --init` you will want to uncomment and change the location of where the compiled javascript will go
 
 ```javascript
 # from:
@@ -38,5 +38,7 @@ After `tsc --init` you will want to uncomment and change the location of where t
 "rootDir": "./src", // Uncomment and change dir for typescript files
 "moduleResolution": "node", // Uncomment
 ```
+
+3. Create src folder and run `tsc`
 
 [TypeScript Docs](https://www.typescriptlang.org/)
