@@ -13,4 +13,6 @@ const addNumbers = (num1, num2) => num1 + num2;
 app.get('/', (req, res, next) => {
     res.send(`Hello to TypeScript Node 🔥 ${addNumbers(5, 5)}`);
 });
-app.listen(PORT, () => console.log(`Server running on port ${PORT} 🔥`));
+app.listen(PORT, () => {
+    console.log(`Server running on port http://localhost:${PORT} 🔥`);
+});

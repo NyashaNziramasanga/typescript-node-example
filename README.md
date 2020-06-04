@@ -5,13 +5,13 @@ Getting started with TypeScript and Node JS
 ## Scripts
 
 ```bash
-# Run development server on http://localhost:5000/
+# Runs server from app.ts file
 npm run dev
 
-# Run javascript in Dist folder
+# Run javascript in Dist folder (Run "npm run build" if there are any changes)
 npm start
 
-# Build dist folder will app.js
+# Build dist folder and app.js file
 npm run build
 ```
 

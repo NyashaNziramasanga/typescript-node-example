@@ -12,4 +12,6 @@ app.get('/', (req: Request, res: Response, next: NextFunction) => {
   res.send(`Hello to TypeScript Node 🔥 ${addNumbers(5, 5)}`);
 });
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT} 🔥`));
+app.listen(PORT, () => {
+  console.log(`Server running on port http://localhost:${PORT} 🔥`);
+});
