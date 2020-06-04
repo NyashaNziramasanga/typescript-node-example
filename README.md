@@ -71,3 +71,4 @@ tsc --version
 - [TypeScript - The Basics (Video)](https://www.youtube.com/watch?v=ahCwqrYpIuM)
 - [TypeScript Setup with Node & Express (Video)](https://www.youtube.com/watch?v=zRo2tvQpus8&t=446s)
 - [The TypeScript Guide by flaviocopes](https://flaviocopes.com/typescript/)
+- [Microsoft TypeScript-Node-Starter (Repo)](https://github.com/microsoft/TypeScript-Node-Starter/blob/master/src/app.ts)
