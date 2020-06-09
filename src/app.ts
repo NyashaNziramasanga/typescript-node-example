@@ -9,7 +9,7 @@ const app: Application = express();
 const addNumbers = (num1: number, num2: number): number => num1 + num2;
 
 app.get('/', (req: Request, res: Response, next: NextFunction) => {
-  res.send(`Hello to TypeScript Node 🔥 ${addNumbers(5, 5)}`);
+  res.send(`<h1>Hello to TypeScript Node 🔥 ${addNumbers(5, 5)}</h1>`);
 });
 
 app.listen(PORT, () => {
